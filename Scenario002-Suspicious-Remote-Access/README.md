@@ -50,5 +50,5 @@ The evidence below follows the activity and investigation in chronological order
 7. **Analyst Assessment and Escalation** — Available evidence assessed as suspicious and escalated for further validation.
 
 ## Incident Documentation
-- **SOC-002 Incident Ticket** — Short SOC case record covering the alert, investigation, analyst assessment and escalation.
-- **SOC-002 Full Incident Report** — Detailed report covering the complete investigation and escalation decision.
+- [**SOC-002 Incident Ticket**](SOC-002_Suspicious-Remote-Access-Ticket.pdf) — Short SOC case record covering the alert, investigation, analyst assessment and escalation.
+- [**SOC-002 Full Incident Report**](SOC-002_Suspicious%20Remote%20Access%20to%20HR-PC01-Report.pdf) — Detailed report covering the complete investigation and escalation decision.
