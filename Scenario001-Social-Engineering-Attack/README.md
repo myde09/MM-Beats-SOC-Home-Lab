@@ -53,3 +53,14 @@ The evidence below follows the attack and investigation in chronological order.
 - [**SOC-001 Incident Ticket**](SOC-001_Incident-Ticket_HR-Update.pdf) - Short case record covering the alert, investigation, assessment and response.
 - [**SOC-001 Full Incident Report**](SOC-001_Full-Incident-Report_HR-Update.pdf) — Detailed report covering the complete incident investigation and response.
 >Where two versions of an evidence screenshot are provided, one is the original raw evidence and the other is annotated to highlight the security-relevant information used during the investigation.
+
+### Evidence Files
+1. [01 — HR Update Hosted on BLACKWOLF (Raw)](01_HR-Update_Hosted_on_BLACKWOLF.JPG)
+2. [02 — BLACKWOLF HTTP Server Started (Raw)](02_BLACKWOLF_HTTP_Server_Started.jpg)
+3. [03 — HR-PC01 Accessing BLACKWOLF Server (Raw)](03_HR-PC01_Accessing_HR-Update_on_BLACKWOLF_Server.jpg)
+4. [04 — HR Update Downloaded on HR-PC01 (Raw)](04_HR-Update_Downloaded_on_HR-PC01.jpg)
+5. Wazuh Process Chain Investigation — [Raw](05_Wazuh_HR-Update_Process_Chain.jpg) | [Annotated](05_Wazuh_HR-Update_Process_Chain.png)
+6. Wazuh Alert and MITRE ATT&CK Review — [Raw](06_Wazuh_Alert_Rule_92032_MITRE.jpg) | [Annotated](06_Wazuh_Alert_Rule_92032_MITRE.png)
+7. Malicious HR Update Quarantined — [Raw](07_Malicious_HR-Update_Quarantined.jpg) | [Annotated](07_Malicious_HR-Update_Quarantined.png)
+
+
