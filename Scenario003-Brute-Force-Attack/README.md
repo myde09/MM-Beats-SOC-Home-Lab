@@ -49,4 +49,25 @@ The evidence below follows the brute-force attack and investigation in chronolog
 ## Incident Documentation
 The investigation was documented using both a SOC incident ticket and a full incident report.
 These documents record the alert details, investigation findings, analyst assessment, escalation decision and recommended response actions.
+- [SOC-003 Incident Ticket](SOC-003_Incident-Ticket_Brute-force-Attack.pdf)
+- [SOC-003 Full Incident Report](SOC-003_Brute-force-Attack-Report.pdf)
 ## Evidence Files
+### 1. BLACKWOLF Pre-Attack Timestamp
+- [Annotated Evidence](BLACKWOLF-Pre-Attack-Timestamp.png)
+- [Raw Evidence](BLACKWOLF%20Timestamp%20RAW.jpg)
+### 2. Failed Login Activity Detected in Wazuh
+- [Annotated Evidence](Wazuh-First-Failed-Login-Detection.png)
+- [Raw Evidence](Wazuh-First-Failed-Login-Detection.jpg)
+### 3. Failed Login Events Correlated
+- [Annotated Evidence](Wazuh-First-Failed-Login-Detection1.1.png)
+- [Raw Evidence](Wazuh-First-Failed-Login-Detection1.1.jpg)
+### 4. Successful Logon Detected After Failed Attempts
+- [Annotated Evidence](Wazuh-Successful-Logon-Detection1.png)
+- [Raw Evidence](Wazuh-Successful-Logon-Detection1.jpg)
+### 5. Brute-Force Activity Overview
+- [Annotated Evidence](Wazuh-Brute-Force-Activity-Overview.png)
+- [Raw Evidence](Activity-Overview-RAW.jpg)
+### 6. Successful Logon Investigation
+- [Successful Logon Evidence 1](Wazuh%20Successful%20Logon%20Detection1.1.png)
+- [Successful Logon Evidence 2](Wazuh%20Successful%20Logon%20Detection1.2.png)
+- [Successful Logon Evidence 3](Wazuh%20Successful%20Logon%20Detection1.3.png)
