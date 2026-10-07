@@ -49,6 +49,26 @@ The evidence below follows the activity and investigation in chronological order
 6. **Source IP Correlation** — Source IP 192.168.1.155 correlated with the BLACKWOLF Kali Linux machine.
 7. **Analyst Assessment and Escalation** — Available evidence assessed as suspicious and escalated for further validation.
 
+### Evidence Files
+#### 01 — BLACKWOLF Attacker Hostname and IP
+- [Raw Evidence](01_BLACKWOLF_Attacker_Hostname_IP.png)
+- [Annotated Evidence](01_BLACKWOLF_Attacker_Hostname_IP.jpg)
+#### 02 — BLACKWOLF SMB Login Attempt to HR-PC01
+- [Raw Evidence](02_BLACKWOLF_SMB_Login_Attempt_HR-PC01.png)
+- [Annotated Evidence](02_BLACKWOLF_SMB_Login_Attempt_HR-PC01.jpg)
+#### 03 — Wazuh Network Logon Source IP on HR-PC01
+- [Raw Evidence](03_Wazuh_Network_Logon_Source_IP_HR-PC01.png)
+- [Annotated Evidence](03_Wazuh_Network_Logon_Source_IP_HR-PC01.jpg)
+#### 04 — Wazuh Successful Logon for Mel from BLACKWOLF
+- [Raw Evidence](04_Wazuh_Successful_Logon_Mel_From_BLACKWOLF.png)
+- [Annotated Evidence](04_Wazuh_Successful_Logon_Mel_From_BLACKWOLF.jpg)
+#### 05 — Wazuh Successful Remote Logon Alert
+- [Raw Evidence](05_Wazuh_Successful_Remote_Logon_Alert.png)
+- [Annotated Evidence](05_Wazuh_Successful_Remote_Logon_Alert.jpg)
+#### 06 — Wazuh Remote Logon Rule and MITRE Details
+- [Raw Evidence](06_Wazuh_Remote_Logon_Rule_MITRE_Details.png)
+- [Annotated Evidence](06_Wazuh_Remote_Logon_Rule_MITRE_Details.jpg)
+
 ## Incident Documentation
 - [**SOC-002 Incident Ticket**](SOC-002_Suspicious-Remote-Access-Ticket.pdf) — Short SOC case record covering the alert, investigation, analyst assessment and escalation.
 - [**SOC-002 Full Incident Report**](SOC-002_Suspicious%20Remote%20Access%20to%20HR-PC01-Report.pdf) — Detailed report covering the complete investigation and escalation decision.
