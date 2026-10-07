@@ -44,8 +44,7 @@ The evidence below follows the brute-force attack and investigation in chronolog
 3. **Failed Login Events Correlated** — Multiple authentication failures were reviewed together to identify the repeated login pattern and determine that the activity was consistent with a brute-force attempt rather than an isolated failed login.
 4. **Successful Logon Activity Checked** — Authentication events following the failed attempts were reviewed to determine whether any login was successful and whether the targeted account may have been accessed.
 5. **Successful Login Detected After Failed Attempts** — Wazuh authentication events showed a successful logon following the repeated failed attempts. This increased the severity of the investigation and required further review to determine whether the successful authentication was related to the preceding brute-force activity.
-6. **Post-Login Activity Reviewed** — Activity associated with the successful authentication was reviewed to identify any suspicious actions following the login and to assess the potential impact on HR-PC01.
-7. **Analyst Assessment and Escalation** — The combination of repeated failed authentication attempts followed by a successful login was treated as suspicious and requiring escalation. The relevant authentication evidence, timeline and affected endpoint details were documented for further investigation.
+6. **Analyst Assessment and Escalation** — The combination of repeated failed authentication attempts followed by a successful login was treated as suspicious and requiring escalation. The relevant authentication evidence, timeline and affected endpoint details were documented for further investigation.
 
 ## Incident Documentation
 The investigation was documented using both a SOC incident ticket and a full incident report.
